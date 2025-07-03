@@ -76,6 +76,10 @@ mono_crash.*
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Firebase native binary files (to prevent 100MB GitHub error)
+Assets/Firebase/Plugins/**/*.so
+Assets/Firebase/Plugins/**/*.bundle
+
 # TestRunner generated files
 InitTestScene*.unity*
 
